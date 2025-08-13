@@ -3,7 +3,7 @@
 <h1 align="center">Soheil Salmani</h1>
 
 <p align="center">
-Data Engineer • Python • ETL & BI • Financial Data  
+Data Engineer • Python • ETL & BI • Financial Data<br/>
 Relocation: Germany / Ireland • Open to Remote
 </p>
 
