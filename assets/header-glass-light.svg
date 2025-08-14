@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d5afe" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#9c4dff" stop-opacity="0.20"/>
+    </linearGradient>
+    <filter id="blur2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <style>
+      .title{ font: 800 40px 'Plus Jakarta Sans', Segoe UI, Arial; fill:#1b1e35 }
+      .sub{ font: 700 22px 'Plus Jakarta Sans', Segoe UI, Arial; fill:#5b6282 }
+    </style>
+  </defs>
+  <rect x="16" y="16" width="1168" height="228" rx="22" fill="rgba(255,255,255,0.95)" stroke="rgba(22,27,62,0.08)"/>
+  <circle cx="160" cy="80" r="70" fill="url(#g2)" filter="url(#blur2)"/>
+  <circle cx="1080" cy="180" r="90" fill="url(#g2)" filter="url(#blur2)"/>
+  <text x="60" y="120" class="title">Soheil Salmani</text>
+  <text x="60" y="165" class="sub">Financial Data Pipelines &amp; Analytics · Python · ETL · EDA · BI</text>
+</svg>
