@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" font-family="Plus Jakarta Sans, Segoe UI, Arial">
+  <style>
+    .chip{fill:rgba(255,255,255,0.95);stroke:rgba(22,27,62,0.08)}
+    .txt{fill:#1b1e35;font-weight:800}
+  </style>
+  <g transform="translate(20,20)">
+    <rect class="chip" x="0" y="0" rx="16" width="140" height="40"/><text class="txt" x="20" y="27">Python</text>
+    <rect class="chip" x="160" y="0" rx="16" width="110" height="40"/><text class="txt" x="180" y="27">SQL</text>
+    <rect class="chip" x="290" y="0" rx="16" width="120" height="40"/><text class="txt" x="310" y="27">Linux</text>
+    <rect class="chip" x="430" y="0" rx="16" width="150" height="40"/><text class="txt" x="450" y="27">Pandas</text>
+    <rect class="chip" x="600" y="0" rx="16" width="140" height="40"/><text class="txt" x="620" y="27">NumPy</text>
+    <rect class="chip" x="760" y="0" rx="16" width="100" height="40"/><text class="txt" x="780" y="27">ETL</text>
+    <rect class="chip" x="880" y="0" rx="16" width="200" height="40"/><text class="txt" x="900" y="27">Business Intelligence</text>
+  </g>
+</svg>
