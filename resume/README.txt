@@ -1,1 +1,0 @@
-Place your current CV here as `Soheil_Salmani_CV.pdf` to enable the download link in README.
