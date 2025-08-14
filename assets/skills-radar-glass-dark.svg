@@ -1,0 +1,33 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Plus Jakarta Sans, Segoe UI, Arial">
+  <style>
+    .card{fill:rgba(255,255,255,0.06);stroke:rgba(255,255,255,0.12)}
+    .label{fill:#eaf2ff;font-weight:800}
+    .muted{fill:#b9c2d3;font-weight:700}
+  </style>
+  <defs>
+    <linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ec9ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#b388ff" stop-opacity="0.38"/>
+    </linearGradient>
+  </defs>
+  <rect class="card" x="16" y="16" width="528" height="328" rx="18"/>
+  <text x="32" y="44" class="label" font-size="18">Skills — Radar</text>
+
+  <g transform="translate(280,190)" stroke="rgba(255,255,255,0.18)" fill="none">
+    <polygon points="0,-120 104,-60 104,60 0,120 -104,60 -104,-60"/>
+    <polygon points="0,-80 70,-40 70,40 0,80 -70,40 -70,-40"/>
+    <polygon points="0,-40 35,-20 35,20 0,40 -35,20 -35,-20"/>
+  </g>
+
+  <g transform="translate(280,190)">
+    <polygon points="0,-95 85,-45 80,40 0,75 -70,35 -60,-30"
+             fill="url(#rg)" stroke="#6ec9ff" stroke-opacity="0.8" stroke-width="2" opacity="0.85"/>
+  </g>
+
+  <text x="270" y="52" class="muted">Python</text>
+  <text x="450" y="140" class="muted">SQL</text>
+  <text x="450" y="270" class="muted">ETL</text>
+  <text x="270" y="350" class="muted">Pandas</text>
+  <text x="70"  y="270" class="muted">NumPy</text>
+  <text x="70"  y="140" class="muted">Linux/Git</text>
+</svg>
