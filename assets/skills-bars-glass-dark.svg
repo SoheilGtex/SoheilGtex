@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" font-family="Plus Jakarta Sans, Segoe UI, Arial">
+  <style>
+    .card{fill:rgba(255,255,255,0.06);stroke:rgba(255,255,255,0.12)}
+    .label{fill:#eaf2ff;font-weight:800}
+    .muted{fill:#b9c2d3;font-weight:700}
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ec9ff"/>
+      <stop offset="1" stop-color="#b388ff"/>
+    </linearGradient>
+  </defs>
+  <rect class="card" x="16" y="16" width="1168" height="288" rx="18"/>
+  <text x="40" y="52" class="label" font-size="22">Skills — Bars</text>
+
+  <g transform="translate(40,90)">
+    <text y="0" class="muted">Python</text>
+    <rect x="180" y="-14" width="780" height="20" rx="10" fill="rgba(110,201,255,0.22)"/>
+    <rect x="180" y="-14" width="720" height="20" rx="10" fill="url(#g)"/>
+  </g>
+
+  <g transform="translate(40,130)">
+    <text y="0" class="muted">SQL</text>
+    <rect x="180" y="-14" width="680" height="20" rx="10" fill="rgba(110,201,255,0.22)"/>
+    <rect x="180" y="-14" width="610" height="20" rx="10" fill="url(#g)"/>
+  </g>
+
+  <g transform="translate(40,170)">
+    <text y="0" class="muted">ETL</text>
+    <rect x="180" y="-14" width="750" height="20" rx="10" fill="rgba(110,201,255,0.22)"/>
+    <rect x="180" y="-14" width="690" height="20" rx="10" fill="url(#g)"/>
+  </g>
+
+  <g transform="translate(40,210)">
+    <text y="0" class="muted">Pandas / NumPy</text>
+    <rect x="180" y="-14" width="760" height="20" rx="10" fill="rgba(110,201,255,0.22)"/>
+    <rect x="180" y="-14" width="700" height="20" rx="10" fill="url(#g)"/>
+  </g>
+
+  <g transform="translate(40,250)">
+    <text y="0" class="muted">Linux / Git</text>
+    <rect x="180" y="-14" width="640" height="20" rx="10" fill="rgba(110,201,255,0.22)"/>
+    <rect x="180" y="-14" width="590" height="20" rx="10" fill="url(#g)"/>
+  </g>
+</svg>
