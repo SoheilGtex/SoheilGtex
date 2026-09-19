@@ -1,18 +1,25 @@
-name: Profile CI
+name: Profile CI Validation
 
 on:
   push:
+    branches: [ main, master ]
   pull_request:
+    branches: [ main, master ]
 
 permissions:
   contents: read
 
 jobs:
-  validate:
+  validate-architecture:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - run: python3 scripts/check_profile.py
+          python-version: '3.11'
+          
+      - name: Run Integrity Check
+        run: python3 scripts/check_profile.py

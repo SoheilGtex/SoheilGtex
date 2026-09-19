@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%">
+  <defs>
+    <style>
+      .bg { fill: #FAFAFA; }
+      .border { stroke: #E4E4E7; stroke-width: 1; }
+      .title { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #0284C7; letter-spacing: 0.1em; }
+      .col-header { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #18181B; letter-spacing: 0.05em; }
+      .row-label { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; fill: #71717A; }
+      .row-data { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 14px; fill: #27272A; }
+      .row-context { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 13px; fill: #A1A1AA; }
+      .dot { fill: #D4D4D8; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" />
+  
+  <text x="50" y="40" class="title">TECHNICAL STATE MATRIX</text>
+
+  <text x="50" y="80" class="col-header">DOMAIN</text>
+  <text x="240" y="80" class="col-header">STATE VECTORS</text>
+  <line x1="50" y1="95" x2="850" y2="95" class="border" />
+
+  <text x="50" y="125" class="row-label">[ SYS ]  OPERATIONS</text>
+  <text x="240" y="125" class="row-data">Linux <tspan class="dot">·</tspan> Docker <tspan class="dot">·</tspan> CI/CD <tspan class="dot">·</tspan> GitHub Actions <tspan class="dot">·</tspan> Application Security</text>
+
+  <text x="50" y="155" class="row-label">[ SFT ]  SOFTWARE</text>
+  <text x="240" y="155" class="row-data">Python <tspan class="dot">·</tspan> FastAPI <tspan class="dot">·</tspan> PostgreSQL <tspan class="dot">·</tspan> Data Pipelines <tspan class="dot">·</tspan> REST APIs</text>
+
+  <text x="50" y="185" class="row-label">[ MTH ]  FOUNDATION</text>
+  <text x="240" y="185" class="row-data">Mathematics <tspan class="dot">·</tspan> Computer Science <tspan class="dot">·</tspan> Probability <tspan class="dot">·</tspan> Algorithms</text>
+
+  <line x1="50" y1="205" x2="850" y2="205" class="border" />
+
+  <text x="50" y="225" class="row-context">Active Context:</text>
+  <text x="155" y="225" class="row-context">DevOps @ Fara-Ro &nbsp;&nbsp;|&nbsp;&nbsp; B.Sc. Math @ Kharazmi University (TA)</text>
+</svg>
