@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+  <defs>
+    <pattern id="grid-light" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e1e4e8" stroke-width="0.7"/>
+    </pattern>
+    <style>
+      .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #24292f; letter-spacing: 2px; }
+      .text-mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace; font-size: 10px; fill: #57606a; }
+      .text-highlight { fill: #0969da; }
+      .noise-path { stroke: #d0d7de; stroke-width: 1.5; fill: none; }
+      .stable-path { stroke: #0969da; stroke-width: 2; fill: none; }
+      .constraint { stroke: #0969da; stroke-width: 1.5; stroke-dasharray: 4 4; opacity: 0.6; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#grid-light)" rx="8" />
+
+  <line x1="400" y1="40" x2="400" y2="260" class="constraint" />
+  <text x="412" y="55" class="text-mono text-highlight">CONSTRAINT_MANIFOLD (CI/CD, Invariants)</text>
+
+  <path class="noise-path" d="M 0 120 C 80 20, 160 220, 240 120 C 300 40, 350 150, 400 120" />
+  <path class="stable-path" d="M 400 120 L 800 120" />
+  
+  <path class="noise-path" d="M 0 180 C 100 280, 150 80, 250 180 C 320 250, 360 160, 400 180" />
+  <path class="stable-path" d="M 400 180 L 800 180" />
+
+  <circle cx="400" cy="120" r="4" fill="#ffffff" stroke="#0969da" stroke-width="2" />
+  <circle cx="400" cy="180" r="4" fill="#ffffff" stroke="#0969da" stroke-width="2" />
+
+  <circle r="3" fill="#0969da">
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" />
+    <animateMotion dur="3s" repeatCount="indefinite" path="M 400 120 L 780 120" />
+  </circle>
+  <circle r="3" fill="#0969da">
+    <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite" />
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M 400 180 L 780 180" />
+  </circle>
+
+  <circle cx="500" cy="120" r="2.5" fill="#24292f" />
+  <circle cx="650" cy="120" r="2.5" fill="#24292f" />
+  <circle cx="580" cy="180" r="2.5" fill="#24292f" />
+  <circle cx="720" cy="180" r="2.5" fill="#24292f" />
+
+  <text x="30" y="40" class="text-title">SYSTEM STATE TOPOLOGY</text>
+  <text x="30" y="245" class="text-mono">INPUT: STOCHASTIC PROCESS</text>
+  <text x="30" y="260" class="text-mono">Var(X) &gt; 0</text>
+  <text x="420" y="245" class="text-mono">OUTPUT: DETERMINISTIC STATE</text>
+  <text x="420" y="260" class="text-mono">Var(X) → 0</text>
+</svg>

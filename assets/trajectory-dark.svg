@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+  <defs>
+    <pattern id="grid-dark" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+    <style>
+      .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #c9d1d9; letter-spacing: 2px; }
+      .text-mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace; font-size: 10px; fill: #8b949e; }
+      .text-highlight { fill: #58a6ff; }
+      .noise-path { stroke: #484f58; stroke-width: 1.5; fill: none; }
+      .stable-path { stroke: #58a6ff; stroke-width: 2; fill: none; }
+      .constraint { stroke: #58a6ff; stroke-width: 1.5; stroke-dasharray: 4 4; opacity: 0.7; }
+    </style>
+  </defs>
+
+  <!-- Background Grid -->
+  <rect width="100%" height="100%" fill="url(#grid-dark)" rx="8" />
+
+  <!-- The Constraint Manifold (Pipeline) -->
+  <line x1="400" y1="40" x2="400" y2="260" class="constraint" />
+  <text x="412" y="55" class="text-mono text-highlight">CONSTRAINT_MANIFOLD (CI/CD, Invariants)</text>
+
+  <!-- Path 1: Upper Trajectory -->
+  <path class="noise-path" d="M 0 120 C 80 20, 160 220, 240 120 C 300 40, 350 150, 400 120" />
+  <path class="stable-path" d="M 400 120 L 800 120" />
+  
+  <!-- Path 2: Lower Trajectory -->
+  <path class="noise-path" d="M 0 180 C 100 280, 150 80, 250 180 C 320 250, 360 160, 400 180" />
+  <path class="stable-path" d="M 400 180 L 800 180" />
+
+  <!-- Intersection Nodes -->
+  <circle cx="400" cy="120" r="4" fill="#0d1117" stroke="#58a6ff" stroke-width="2" />
+  <circle cx="400" cy="180" r="4" fill="#0d1117" stroke="#58a6ff" stroke-width="2" />
+
+  <!-- Animated Particles on Stable State -->
+  <circle r="3" fill="#79c0ff">
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" />
+    <animateMotion dur="3s" repeatCount="indefinite" path="M 400 120 L 780 120" />
+  </circle>
+  <circle r="3" fill="#79c0ff">
+    <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite" />
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M 400 180 L 780 180" />
+  </circle>
+
+  <!-- Data Points on Stable Path -->
+  <circle cx="500" cy="120" r="2.5" fill="#c9d1d9" />
+  <circle cx="650" cy="120" r="2.5" fill="#c9d1d9" />
+  <circle cx="580" cy="180" r="2.5" fill="#c9d1d9" />
+  <circle cx="720" cy="180" r="2.5" fill="#c9d1d9" />
+
+  <!-- Mathematical & System Annotations -->
+  <text x="30" y="40" class="text-title">SYSTEM STATE TOPOLOGY</text>
+  
+  <text x="30" y="245" class="text-mono">INPUT: STOCHASTIC PROCESS</text>
+  <text x="30" y="260" class="text-mono">Var(X) &gt; 0</text>
+  
+  <text x="420" y="245" class="text-mono">OUTPUT: DETERMINISTIC STATE</text>
+  <text x="420" y="260" class="text-mono">Var(X) → 0</text>
+</svg>

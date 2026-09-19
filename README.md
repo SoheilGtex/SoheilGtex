@@ -1,36 +1,44 @@
+<div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" width="100%" alt="Soheil Salmani | DevOps Engineer & Mathematics + CS | Control System Diagram">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/trajectory-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/trajectory-light.svg">
+  <img alt="System trajectory from probabilistic state to deterministic state" src="./assets/trajectory-light.svg" width="800">
 </picture>
 
-<br>
+<br/>
+<br/>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank"><b>LinkedIn</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://soheilgtex.github.io" target="_blank"><b>Portfolio</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/SoheilGtex?tab=repositories"><b>Repositories</b></a>
+### Soheil Salmani
+**DevOps Engineer • Systems • Mathematics**
+
 </div>
 
-<br>
+---
 
-My path into infrastructure came through backend systems, data pipelines, and technical leadership. That trajectory shaped a specific view of operations: **infrastructure is part of the software system, not a separate domain.**
+I build deterministic systems in probabilistic environments.
 
-I approach systems engineering the way I approach mathematics: defining constraints, reducing uncertainty, and making state explicit. 
+Currently working in **DevOps and Infrastructure** at Fara-Ro, focusing on deployment reliability, application security, and CI/CD architecture. My approach is rooted in my academic background in **Mathematics**—treating infrastructure not merely as configuration scripts, but as state spaces governed by strict constraints, invariants, and convergence properties.
 
-Currently working as a DevOps Engineer at Fara-Ro while completing a B.Sc. in Mathematics and Applications at Kharazmi University.
+The progression of my work is deliberate:
 
-<br>
+**Python Backend** &nbsp; ↦ &nbsp; **Data Engineering** &nbsp; ↦ &nbsp; **DevOps & DevSecOps**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/state-vector-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/state-vector-light.svg">
-  <img src="assets/state-vector-dark.svg" width="100%" alt="Technical State Matrix">
-</picture>
+Every transition has been driven by the same fundamental objective: enforcing mathematical structure and reliability on complex, moving systems.
 
-<p align="center">
-  <br>
-  <sub><b>The pinned repositories carry the implementation details.</b></sub>
-</p>
+<br/>
+
+#### Core Domains
+
+- **Infrastructure & Reliability:** Linux, Docker, CI/CD, GitHub Actions, Automated Testing, Server Hardening.
+- **Software & Data:** Python, PostgreSQL, FastAPI, Data Pipelines, ETL.
+- **Computational:** Mathematical Modeling, Probability, Linear Algebra, Statistical Analysis.
+
+*The pinned repositories carry the implementation details.*
+
+<br/>
+
+<div align="center">
+  <a href="https://soheilgtex.github.io">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/soheil-salmani-822b89232">LinkedIn</a>
+</div>

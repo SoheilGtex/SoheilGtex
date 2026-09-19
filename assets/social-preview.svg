@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <!-- 
+    NOTE: GitHub requires a PNG or JPG for the open-graph social preview. 
+    Open this SVG in any browser, right click, and take a clean screenshot, 
+    or open it in Figma/Inkscape and export it as a 1280x640 PNG. 
+  -->
+  <rect width="100%" height="100%" fill="#0d1117" />
+  
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <line x1="640" y1="100" x2="640" y2="540" stroke="#58a6ff" stroke-width="3" stroke-dasharray="8 8" opacity="0.7" />
+  
+  <path d="M 0 260 C 150 60, 300 460, 450 260 C 550 100, 600 320, 640 260" stroke="#484f58" stroke-width="4" fill="none" />
+  <path d="M 640 260 L 1280 260" stroke="#58a6ff" stroke-width="5" fill="none" />
+  
+  <path d="M 0 380 C 200 580, 300 180, 500 380 C 580 460, 600 340, 640 380" stroke="#484f58" stroke-width="4" fill="none" />
+  <path d="M 640 380 L 1280 380" stroke="#58a6ff" stroke-width="5" fill="none" />
+
+  <circle cx="640" cy="260" r="8" fill="#0d1117" stroke="#58a6ff" stroke-width="4" />
+  <circle cx="640" cy="380" r="8" fill="#0d1117" stroke="#58a6ff" stroke-width="4" />
+
+  <text x="80" y="100" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#c9d1d9" letter-spacing="4">SOHEIL SALMANI</text>
+  <text x="80" y="140" font-family="monospace" font-size="20" fill="#8b949e">DevOps | Systems | Mathematics</text>
+</svg>
