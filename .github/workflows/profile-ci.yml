@@ -2,19 +2,17 @@ name: Profile CI
 
 on:
   push:
-    branches: [main]
   pull_request:
-  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  validate-profile:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-      - run: python scripts/check_profile.py
+          python-version: '3.x'
+      - run: python3 scripts/check_profile.py
