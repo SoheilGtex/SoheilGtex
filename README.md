@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/proof-to-production-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="assets/proof-to-production-light.gif">
-  <img src="assets/proof-to-production-dark.gif" width="100%" alt="Soheil Salmani — Mathematics × DevOps">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/state-space-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/state-space-light.svg">
+  <img src="assets/state-space-dark.svg" width="100%" alt="Soheil Salmani | Mathematics × DevOps">
 </picture>
 
 <p align="center">
@@ -14,54 +14,50 @@
 
 <br>
 
-## Two lenses, one way of thinking
+## State is the common language
 
-> **Math asks: _what must be true?_**  
-> **DevOps asks: _what still works when things go wrong?_**
+I'm **Soheil Salmani**. I work in DevOps and study Mathematics and Applications at Kharazmi University.
 
-I like the overlap.
+The connection makes sense to me: mathematics trains you to care about **state, invariants, assumptions, edge cases, and convergence**. DevOps turns the same questions into **environments, pipelines, policies, telemetry, security, and recovery**. I like working in that overlap.
 
-I'm **Soheil Salmani**, a DevOps Engineer and Mathematics undergraduate at Kharazmi University. Mathematics trained me to look for structure, invariants, edge cases, uncertainty, and proof. Engineering makes me test those habits against systems that have users, state, failures, deadlines, and consequences.
+My background is broader than operations alone. I came through Python/backend work, technical leadership, data engineering, and analytics, so I tend to see infrastructure as part of a larger software and data system rather than a separate layer.
 
-Most of my work lives somewhere between **Linux, containers, CI/CD, Python services, data systems, testing, security, and reliability**. My academic side keeps pulling me toward **numerical analysis, probability, linear algebra, algorithms, optimization, and scientific computing**.
+### Same questions, different language
 
-<p align="center">
-  <img src="assets/identity-map.svg" width="92%" alt="A map connecting mathematics, software, data systems, and DevOps">
-</p>
+| The question | In mathematics | In systems |
+| --- | --- | --- |
+| **What must stay true?** | invariants, constraints | policy, configuration, contracts |
+| **How do we know it is behaving?** | stability, error, convergence | health checks, metrics, traces |
+| **Can someone reproduce the result?** | method, assumptions | CI, containers, reproducible environments |
+| **What happens at the boundary?** | edge cases, limiting behavior | failure modes, security boundaries |
+| **What are we optimizing?** | objective under constraints | reliability, latency, cost, simplicity |
 
-## 2026 snapshot
+## Current state
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Building
+**Work**
 
-`Linux` · `Docker` · `CI/CD` · `GitHub Actions`  
-`Python` · `FastAPI` · `PostgreSQL` · `Git`  
-`DevSecOps` · `Application Security` · `Testing`
+DevOps Engineer at **Fara-Ro**.
+
+I work around Linux and Docker environments, CI/CD, application security, automated testing, deployment reliability, and Python/FastAPI-based systems.
 
 </td>
 <td width="50%" valign="top">
 
-### Academic foundation
+**Study**
 
-`Numerical Analysis` · `Probability & Statistics`  
-`Linear Algebra` · `Algorithms` · `Differential Equations`  
-`Combinatorics` · `Mathematical Software`
+B.Sc. student in **Mathematics and Applications** at Kharazmi University, while building a stronger Computer Science foundation.
+
+I also serve as a Teaching Assistant and stay close to numerical analysis, probability, algorithms, scientific computing, and data-intensive systems.
 
 </td>
 </tr>
 </table>
 
-- **DevOps Engineer at Fara-Ro**
-- **B.Sc. Mathematics and Applications at Kharazmi University**
-- **Teaching Assistant at Kharazmi University**
-- **Council Member, Mathematics Scientific Association**
-
-<sub>I keep this section deliberately annual. One refresh a year is enough; the repositories carry the day-to-day detail.</sub>
-
-## The path
+## The trajectory
 
 ```text
 Python / backend
@@ -75,64 +71,62 @@ analytics
 DevOps / DevSecOps
 ```
 
-The job titles changed. The recurring problem did not: **take something complicated, understand its structure, then make it dependable.**
+Different titles, same preference: **understand the system first, then reduce surprise.**
 
-## A few rules I keep
-
-```text
-reproducible  > clever
-observable    > mysterious
-measured      > assumed
-simple        > impressive-looking
-recoverable   > fragile
-```
-
-Automation should remove repetition, not judgment. Metrics should answer a question. Security should be part of the system, not a patch at the end. And if a diagram is much more complicated than the implementation needs to be, I probably drew the wrong diagram.
-
-## Toolbox
+## Working set
 
 <table>
 <tr>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-**Systems**  
-Linux · Docker · Bash  
-GitHub Actions · CI/CD  
-DevSecOps · Hardening
+**Systems**
 
-</td>
-<td valign="top" width="33%">
-
-**Software & Data**  
-Python · FastAPI · SQLAlchemy  
-PostgreSQL · Redis · REST APIs  
-NumPy · Pandas · Prefect
+`Linux` `Docker` `Bash`  
+`Git` `GitHub Actions` `CI/CD`  
+`DevSecOps` `Application Security`
 
 </td>
-<td valign="top" width="33%">
+<td width="34%" valign="top">
 
-**Mathematical Computing**  
-R · MATLAB · LaTeX  
-Numerical methods  
-Probability · Modeling
+**Software & data**
+
+`Python` `FastAPI` `PostgreSQL`  
+`SQL` `SQLAlchemy` `REST APIs`  
+`Redis` `Prefect` `Pandas` `NumPy`
+
+</td>
+<td width="33%" valign="top">
+
+**Mathematical computing**
+
+`R` `MATLAB` `LaTeX`  
+`Numerical Analysis` `Probability`  
+`Linear Algebra` `Algorithms`
 
 </td>
 </tr>
 </table>
 
+<p align="center">
+  <code>reproducible &gt; clever</code>&nbsp;&nbsp;
+  <code>observable &gt; mysterious</code>&nbsp;&nbsp;
+  <code>measured &gt; assumed</code>&nbsp;&nbsp;
+  <code>recoverable &gt; fragile</code>
+</p>
+
 <details>
-<summary><b>Earlier chapters</b></summary>
+<summary><b>A little more context</b></summary>
 <br>
 
-Before DevOps, I worked across Python backend development, technical leadership, financial-data engineering, and analytics. I have also taught programming and robotics, and I continue to teach and support mathematical/computational coursework at university.
+At Kharazmi University, I support coursework across Programming with R, Mathematical Software, Probability I, and Statistical Methods. I also serve on the council of the Mathematics Scientific Association and participate in the university's Artificial Intelligence Association.
 
-Some older recognitions include **Top Inventor and Researcher** (2023, 2024), **Best Research Project** (2023), **Best Programming Project** (2022, 2023), **Best Programmer** (2022), and **CS50x Puzzle Day** participation across 2023–2025.
+Before moving into DevOps, I worked across Python backend development, technical team leadership, financial data engineering, and analytics. That history still shapes how I approach infrastructure: data flow, application behavior, and operational reliability are usually the same system viewed from different angles.
 
 </details>
 
 ---
 
 <p align="center">
-  <b>The pinned repositories are the evidence.</b><br>
-  <sub>This README is only the coordinate system.</sub>
+  <b>The pinned repositories carry the implementation detail.</b><br>
+  <sub>LinkedIn has the chronology. This page is the mental model.</sub>
 </p>
