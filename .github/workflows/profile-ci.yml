@@ -10,9 +10,11 @@ permissions:
   contents: read
 
 jobs:
-  validate:
+  validate-profile:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - name: Validate profile assets and README size
-        run: python3 scripts/check_profile.py
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/check_profile.py

@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/state-space-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/state-space-light.svg">
-  <img src="assets/state-space-dark.svg" width="100%" alt="Soheil Salmani | Mathematics × DevOps">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/state-thesis-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/state-thesis-light.svg">
+  <img src="assets/state-thesis-dark.svg" width="100%" alt="Soheil Salmani | The Systems Thesis">
 </picture>
 
 <p align="center">
@@ -14,119 +14,70 @@
 
 <br>
 
-## State is the common language
+## 01 / Thesis
 
-I'm **Soheil Salmani**. I work in DevOps and study Mathematics and Applications at Kharazmi University.
+I'm **Soheil Salmani** — a DevOps Engineer at **Fara-Ro** and a Mathematics and Applications undergraduate at **Kharazmi University**, with a secondary focus on Computer Science.
 
-The connection makes sense to me: mathematics trains you to care about **state, invariants, assumptions, edge cases, and convergence**. DevOps turns the same questions into **environments, pipelines, policies, telemetry, security, and recovery**. I like working in that overlap.
+I don't see mathematics and systems engineering as separate interests. Mathematics gives me a language for **state, structure, constraints, uncertainty, and convergence**. Engineering is where those ideas meet changing environments, imperfect inputs, failure modes, and operational reality.
 
-My background is broader than operations alone. I came through Python/backend work, technical leadership, data engineering, and analytics, so I tend to see infrastructure as part of a larger software and data system rather than a separate layer.
+> I care about systems that can be reasoned about before they fail, observed while they run, and recovered when they do.
 
-### Same questions, different language
+My path into DevOps came through Python/backend work, technical leadership, data engineering, and analytics. That history matters: I tend to look at infrastructure as part of a larger software and data system, not as a layer that begins after the application is written.
 
-| The question | In mathematics | In systems |
-| --- | --- | --- |
-| **What must stay true?** | invariants, constraints | policy, configuration, contracts |
-| **How do we know it is behaving?** | stability, error, convergence | health checks, metrics, traces |
-| **Can someone reproduce the result?** | method, assumptions | CI, containers, reproducible environments |
-| **What happens at the boundary?** | edge cases, limiting behavior | failure modes, security boundaries |
-| **What are we optimizing?** | objective under constraints | reliability, latency, cost, simplicity |
+## 02 / Operating model
 
-## Current state
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/operating-model-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/operating-model-light.svg">
+  <img src="assets/operating-model-dark.svg" width="100%" alt="Reason, build, operate">
+</picture>
+
+## 03 / Current coordinates
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Work**
+**Engineering**
 
-DevOps Engineer at **Fara-Ro**.
-
-I work around Linux and Docker environments, CI/CD, application security, automated testing, deployment reliability, and Python/FastAPI-based systems.
+DevOps / DevSecOps work around Linux and Docker environments, CI/CD, application security, automated testing, deployment reliability, and Python/FastAPI-based systems.
 
 </td>
 <td width="50%" valign="top">
 
-**Study**
+**Mathematics + CS**
 
-B.Sc. student in **Mathematics and Applications** at Kharazmi University, while building a stronger Computer Science foundation.
-
-I also serve as a Teaching Assistant and stay close to numerical analysis, probability, algorithms, scientific computing, and data-intensive systems.
+B.Sc. in Mathematics and Applications, with a growing Computer Science foundation and continuing interest in algorithms, numerical methods, probability, optimization, scientific computing, and data-intensive systems.
 
 </td>
 </tr>
 </table>
 
-## The trajectory
+I also serve as a **Teaching Assistant at Kharazmi University**. Teaching keeps the academic side of my work concrete: explain the idea, make the assumptions visible, and test whether the explanation survives contact with another person.
 
-```text
-Python / backend
-      ↓
-technical leadership
-      ↓
-data engineering
-      ↓
-analytics
-      ↓
-DevOps / DevSecOps
-```
+## 04 / Working languages
 
-Different titles, same preference: **understand the system first, then reduce surprise.**
+`Linux` `Docker` `Git` `GitHub Actions` `CI/CD` `Bash` `DevSecOps` `Application Security`
 
-## Working set
+`Python` `FastAPI` `PostgreSQL` `SQL` `SQLAlchemy` `REST APIs` `Redis` `Prefect`
 
-<table>
-<tr>
-<td width="33%" valign="top">
+`R` `MATLAB` `LaTeX` `Numerical Analysis` `Probability` `Linear Algebra` `Algorithms`
 
-**Systems**
+## 05 / What I optimize for
 
-`Linux` `Docker` `Bash`  
-`Git` `GitHub Actions` `CI/CD`  
-`DevSecOps` `Application Security`
+**Reproducible over clever.** A result is more useful when someone else can obtain it.
 
-</td>
-<td width="34%" valign="top">
+**Observable over mysterious.** If a system matters, its state should not be hidden.
 
-**Software & data**
+**Measured over assumed.** Intuition is useful; evidence decides.
 
-`Python` `FastAPI` `PostgreSQL`  
-`SQL` `SQLAlchemy` `REST APIs`  
-`Redis` `Prefect` `Pandas` `NumPy`
+**Recoverable over fragile.** Failure is part of the model, not an exception to it.
 
-</td>
-<td width="33%" valign="top">
-
-**Mathematical computing**
-
-`R` `MATLAB` `LaTeX`  
-`Numerical Analysis` `Probability`  
-`Linear Algebra` `Algorithms`
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <code>reproducible &gt; clever</code>&nbsp;&nbsp;
-  <code>observable &gt; mysterious</code>&nbsp;&nbsp;
-  <code>measured &gt; assumed</code>&nbsp;&nbsp;
-  <code>recoverable &gt; fragile</code>
-</p>
-
-<details>
-<summary><b>A little more context</b></summary>
-<br>
-
-At Kharazmi University, I support coursework across Programming with R, Mathematical Software, Probability I, and Statistical Methods. I also serve on the council of the Mathematics Scientific Association and participate in the university's Artificial Intelligence Association.
-
-Before moving into DevOps, I worked across Python backend development, technical team leadership, financial data engineering, and analytics. That history still shapes how I approach infrastructure: data flow, application behavior, and operational reliability are usually the same system viewed from different angles.
-
-</details>
+**Simple enough to explain.** Complexity should earn its place.
 
 ---
 
 <p align="center">
-  <b>The pinned repositories carry the implementation detail.</b><br>
-  <sub>LinkedIn has the chronology. This page is the mental model.</sub>
+  <b>The pinned repositories carry the implementation details.</b><br>
+  <sub>LinkedIn has the chronology. This page is the thesis.</sub>
 </p>
