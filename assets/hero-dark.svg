@@ -40,7 +40,7 @@
 
   <!-- Left Side: Identity -->
   <text x="48" y="76" class="text-title">SOHEIL SALMANI</text>
-  <text x="50" y="104" class="text-subtitle">DEVOPS ENGINEER / MATHEMATICIAN</text>
+  <text x="50" y="104" class="text-subtitle">DEVOPS ENGINEER / MATHEMATICS + CS</text>
 
   <!-- Core Philosophy -->
   <text x="50" y="170" class="text-body">
@@ -112,12 +112,11 @@
     <text x="425" y="50" class="math-text">y(t)</text>
     <text x="425" y="32" class="sub-text">Actual State</text>
 
-    <text x="240" y="130" class="math-text">h(t)</text>
 
     <!-- Formal System Equations -->
     <g transform="translate(140, 250)">
-      <text x="0" y="0" class="math-equation">y(t) = G(s)u(t) + d(t) ── SYSTEM DYNAMICS</text>
-      <text x="0" y="20" class="math-equation">e(t) = r(t) - h(t)y(t) ── ERROR MINIMIZATION</text>
+      <text x="0" y="0" class="math-equation">e(t) = r(t) - y(t) ── DRIFT</text>
+      <text x="0" y="20" class="math-equation">u(t) = K e(t) ── CORRECTIVE ACTION</text>
     </g>
   </g>
 </svg>

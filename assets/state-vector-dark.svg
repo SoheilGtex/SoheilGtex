@@ -31,11 +31,11 @@
 
   <!-- Row 3: Foundation -->
   <text x="50" y="185" class="row-label">[ MTH ]  FOUNDATION</text>
-  <text x="240" y="185" class="row-data">Mathematics <tspan class="dot">·</tspan> Computer Science <tspan class="dot">·</tspan> Probability <tspan class="dot">·</tspan> Algorithms</text>
+  <text x="240" y="185" class="row-data">Mathematics <tspan class="dot">·</tspan> CS Foundations <tspan class="dot">·</tspan> Probability <tspan class="dot">·</tspan> Algorithms</text>
 
   <line x1="50" y1="205" x2="850" y2="205" class="border" />
 
   <!-- Row 4: Context -->
   <text x="50" y="225" class="row-context">Active Context:</text>
-  <text x="155" y="225" class="row-context">DevOps @ Fara-Ro   |   B.Sc. Math @ Kharazmi University (TA)</text>
+  <text x="155" y="225" class="row-context">DevOps @ Fara-Ro &#160;&#160;|&#160;&#160; Mathematics @ Kharazmi University &#160;&#160;|&#160;&#160; Teaching Assistant</text>
 </svg>

@@ -38,7 +38,7 @@
   <rect width="100%" height="100%" fill="url(#grid-pattern-light)" />
 
   <text x="48" y="76" class="text-title">SOHEIL SALMANI</text>
-  <text x="50" y="104" class="text-subtitle">DEVOPS ENGINEER / MATHEMATICIAN</text>
+  <text x="50" y="104" class="text-subtitle">DEVOPS ENGINEER / MATHEMATICS + CS</text>
 
   <text x="50" y="170" class="text-body">
     <tspan x="50" dy="0">I care about systems that can be </tspan>
@@ -100,11 +100,10 @@
     <text x="425" y="50" class="math-text">y(t)</text>
     <text x="425" y="32" class="sub-text">Actual State</text>
 
-    <text x="240" y="130" class="math-text">h(t)</text>
 
     <g transform="translate(140, 250)">
-      <text x="0" y="0" class="math-equation">y(t) = G(s)u(t) + d(t) ── SYSTEM DYNAMICS</text>
-      <text x="0" y="20" class="math-equation">e(t) = r(t) - h(t)y(t) ── ERROR MINIMIZATION</text>
+      <text x="0" y="0" class="math-equation">e(t) = r(t) - y(t) ── DRIFT</text>
+      <text x="0" y="20" class="math-equation">u(t) = K e(t) ── CORRECTIVE ACTION</text>
     </g>
   </g>
 </svg>
