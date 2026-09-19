@@ -1,88 +1,116 @@
-<!-- Glassy README for SoheilGtex -->
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-glass-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-glass-light.svg">
-  <img alt="Soheil Salmani – Financial Data Pipelines & Analytics" src="assets/header-glass-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-hero-light.svg">
+  <img alt="Soheil Salmani | DevOps Engineer and Mathematics undergraduate" src="assets/profile-hero-dark.svg" width="100%">
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank"><b>LinkedIn</b></a> ·
-  <a href="https://github.com/SoheilGtex" target="_blank"><b>GitHub</b></a> ·
-  <a href="https://soheilgtex.github.io" target="_blank"><b>Resume (Site)</b></a>
+  <a href="https://www.linkedin.com/in/soheil-salmani-822b89232"><b>LinkedIn</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://soheilgtex.github.io"><b>Portfolio</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/SoheilGtex?tab=repositories"><b>Repositories</b></a>
 </p>
 
----
+## About
 
-### About
+I'm a **DevOps Engineer at Fara-Ro** and an undergraduate in **Mathematics and Applications** at **Kharazmi University**, with a secondary focus on Computer Science.
 
-Data engineer and Python developer focused on **financial-data pipelines**, **ETL/EDA**, and **BI workflows**.  
-I build efficient data ingestion → cleaning → structuring → analytics pipelines and collaborate with analysts to deliver dashboards and decision-grade insights.
+My work has moved through Python/backend development, financial data engineering and analytics, and now DevOps/DevSecOps. I currently work with Linux and Docker environments, CI/CD, application security, automated testing, and deployment reliability.
 
-- Open to **remote** roles and **relocation** (Germany / Ireland).
-- Interests: **Data Engineering**, **Analytics**, **Automation**, **Scientific Python**.
+What ties those areas together for me is systems thinking. I like using mathematical reasoning to understand complex problems, then building software and infrastructure that behave predictably in the real world.
 
----
+### Right now
 
-### Core Stack
+- Working as a **DevOps Engineer** at Fara-Ro, while continuing selected R&D work around financial analytics and data systems.
+- Serving as a **Teaching Assistant at Kharazmi University** across Programming with R, Mathematical Software, Probability I, and Statistical Methods.
+- Studying mathematics with growing interests in **algorithms, systems, scientific computing, numerical methods, optimization, and data-intensive computing**.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/chips-banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/chips-banner-light.svg">
-  <img alt="Core stack chips" src="assets/chips-banner-dark.svg" width="100%">
-</picture>
+## Selected work
 
----
+| Project | What I worked on |
+| --- | --- |
+| **[Math Research Radar](https://github.com/SoheilGtex/math-research-radar)** | A research-discovery/data platform built around **FastAPI, PostgreSQL, Celery, Redis, Docker, and Next.js**, with multi-source ingestion, background processing, API services, tests, and CI. |
+| **[Finance Data Pipelines](https://github.com/SoheilGtex/finance-data-pipelines)** | A Python ETL project for financial data with CLI/configuration, structured transformations, tests/CI, Docker, and Parquet/SQLite outputs. |
+| **R & Mathematical Software Laboratory** | Open-source educational infrastructure for Kharazmi University's R Programming and Mathematical Software courses, including GitHub-based assignment workflows and version-control practices. |
+| **[Maclaurin Series for sin(x)](https://github.com/SoheilGtex/maclaurin-series-sin-matlab)** | A MATLAB project exploring approximation, convergence, error analysis, animation, and a non-analytic counterexample. |
 
-### Skills Overview
+<details>
+<summary><b>Earlier technical projects</b></summary>
+<br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-bars-glass-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/skills-bars-glass-light.svg">
-  <img alt="Skills bars" src="assets/skills-bars-glass-dark.svg" width="100%">
-</picture>
+- **[Active Noise Cancelling](https://github.com/SoheilGtex/Active-Noise-Cancelling)** — Python-based microphone noise-suppression work using spectral subtraction and adaptive noise tracking.
+- **[Voice Cloning / SV2TTS](https://github.com/SoheilGtex/Voice-Cloning-SV2TTS-)** — An early Python speech-synthesis project built around an SV2TTS workflow.
+- **Asansafar** — Smart urban-mobility product work where I moved from Python development into technical team leadership and MVP delivery.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-radar-glass-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/skills-radar-glass-light.svg">
-  <img alt="Skills radar" src="assets/skills-radar-glass-dark.svg" width="100%">
-</picture>
+</details>
 
----
+## Technical toolkit
 
-### Selected Projects
+**Infrastructure & delivery**  
+`Linux` `Docker` `Git` `GitHub Actions` `CI/CD` `Bash` `DevOps` `DevSecOps` `Application Security` `Server Hardening`
 
-- **Voice Cloning (SV2TTS, Python)** — Presented at Pardis Technology Park; showcased at the Crisis Management Headquarters with UN representatives. Media: IRIB Channel 1 (Jan 2023) & IRIB Nasim (Exir Festival, 2024).
-- **Methane Gas Detection (Python)** — Sensor-based prototype with threshold logic; presented in Sampad programming competitions.
-- **Asansafar — Smart Urban Mobility** — Defined technical direction; prepared MVP; defended at Tehran Municipality panel (Oct 2023).
+**Backend & data systems**  
+`Python` `FastAPI` `PostgreSQL` `SQL` `SQLAlchemy` `REST APIs` `Celery` `Redis` `Prefect` `Data Engineering` `ETL`
 
----
+**Computational & quantitative**  
+`Mathematics` `R` `MATLAB` `NumPy` `Pandas` `Scikit-learn` `LaTeX` `Statistical Data Analysis` `Mathematical Modeling`
 
-### Education & Certifications
+## Academic foundation
 
-**B.Sc. in Mathematics and Applications** — Kharazmi University (Oct 2024 – Present).  
-Core Council Member, Mathematics Scientific Association · Member, AI Society.
+**Kharazmi University**  
+B.Sc. in **Mathematics and Applications** · Oct 2024 – Present
 
-**Certifications (selection):**
-- CS50x Puzzle Day 2025 / 2024 — Harvard University  
-- Scientific Computing with Python — freeCodeCamp  
-- Machine Learning with Python — freeCodeCamp  
-- CS50x — Harvard/CS50  
-- Microsoft Learn · Udemy (Git / Python)
+Selected completed coursework:
 
----
+`Advanced Programming` · `Data Structures & Algorithms` · `Introductory Probability & Statistics` · `Linear Algebra` · `Mathematical Analysis` · `Numerical Analysis` · `Differential Equations` · `Combinatorics` · `Calculus I–II` · `Mathematical Software`
 
-### Contributions
+Alongside the degree, I'm strengthening my Computer Science foundation and exploring the overlap between mathematics, software systems, data infrastructure, and computational research.
+
+## Experience in brief
+
+- **DevOps Engineer · Fara-Ro** — Sep 2026 – Present
+- **Analytics Engineer · Fara-Ro** — Apr 2026 – Sep 2026
+- **Data Engineer · Fara-Ro** — Dec 2024 – Apr 2026
+- **Teaching Assistant · Kharazmi University** — Jan 2026 – Present
+- **Robotics & Programming Instructor · Mobtakeran Academy** — Jul 2025 – Oct 2025
+- **Technical Manager · Asansafar Iranian** — Aug 2023 – Aug 2025
+- **Python Developer · Asansafar Iranian** — Jun 2023 – Aug 2023
+
+## Teaching & community
+
+At Kharazmi University, I have supported courses in **Programming with R, Mathematical Software, Probability I, and Statistical Methods**. I also serve as an elected council member of the **Mathematics Scientific Association** and as a member of the **Artificial Intelligence Association**.
+
+## Selected credentials
+
+- **Fundamentals of Git with GitHub & GitLab**
+- **CS50x · Harvard / CS50**
+- **CS50x Puzzle Day · 2023, 2024, 2025**
+- **Scientific Computing with Python · freeCodeCamp**
+- **Data Analysis with Python · freeCodeCamp**
+- **Machine Learning with Python · freeCodeCamp**
+
+<details>
+<summary><b>Selected recognition</b></summary>
+<br>
+
+- Top Inventor and Researcher · Pardis Technology Park · 2023, 2024
+- Best Research Project · Crisis Management Headquarters · 2023
+- Best Programming Project · SAMPAD Cultural and Artistic Competitions · 2022, 2023
+- Best Programmer · 2022
+
+</details>
+
+## GitHub activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SoheilGtex/SoheilGtex/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SoheilGtex/SoheilGtex/output/github-contribution-grid-snake.svg">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/SoheilGtex/SoheilGtex/output/github-contribution-grid-snake-dark.svg" width="100%">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/SoheilGtex/SoheilGtex/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
 
-<p align="center">
-  <img src="assets/bubbles-divider-dark.svg#gh-dark-mode-only" width="60%">
-  <img src="assets/bubbles-divider-light.svg#gh-light-mode-only" width="60%">
-</p>
+---
 
-<p align="center">© 2025 Soheil Salmani · <a href="https://soheilgtex.github.io">Portfolio</a></p>
+<p align="center">
+  I work best where <b>mathematical thinking</b>, <b>software systems</b>, and <b>reliable infrastructure</b> meet.
+</p>
