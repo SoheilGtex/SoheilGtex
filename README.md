@@ -1,6 +1,8 @@
-<p align="center">
-  <img src="assets/math-devops-bridge.svg" width="100%" alt="Soheil Salmani | Mathematics × DevOps">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/proof-to-production-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/proof-to-production-light.gif">
+  <img src="assets/proof-to-production-dark.gif" width="100%" alt="Soheil Salmani — Mathematics × DevOps">
+</picture>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/soheil-salmani-822b89232"><b>LinkedIn</b></a>
@@ -10,115 +12,127 @@
   <a href="https://github.com/SoheilGtex?tab=repositories"><b>Repositories</b></a>
 </p>
 
-> **I like problems that have both a proof-shaped side and a production-shaped side.**
-
-I'm **Soheil Salmani**, a DevOps Engineer and Mathematics undergraduate at Kharazmi University.
-
-My path has moved through Python/backend development, technical leadership, data engineering, analytics, and now DevOps/DevSecOps. The titles changed; the thread did not: I like understanding complicated systems, reducing them to something precise, and making them dependable.
-
-Mathematics is not a decorative line on my profile. It is how I think about structure, approximation, uncertainty, and trade-offs. Engineering is where I test those ideas against the real world.
-
 <br>
+
+## Two lenses, one way of thinking
+
+> **Math asks: _what must be true?_**  
+> **DevOps asks: _what still works when things go wrong?_**
+
+I like the overlap.
+
+I'm **Soheil Salmani**, a DevOps Engineer and Mathematics undergraduate at Kharazmi University. Mathematics trained me to look for structure, invariants, edge cases, uncertainty, and proof. Engineering makes me test those habits against systems that have users, state, failures, deadlines, and consequences.
+
+Most of my work lives somewhere between **Linux, containers, CI/CD, Python services, data systems, testing, security, and reliability**. My academic side keeps pulling me toward **numerical analysis, probability, linear algebra, algorithms, optimization, and scientific computing**.
+
+<p align="center">
+  <img src="assets/identity-map.svg" width="92%" alt="A map connecting mathematics, software, data systems, and DevOps">
+</p>
+
+## 2026 snapshot
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### Mathematics
+### Building
 
-Numerical analysis  
-Probability & statistics  
-Linear algebra  
-Differential equations  
-Mathematical modeling  
-Optimization
+`Linux` · `Docker` · `CI/CD` · `GitHub Actions`  
+`Python` · `FastAPI` · `PostgreSQL` · `Git`  
+`DevSecOps` · `Application Security` · `Testing`
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### Systems
+### Academic foundation
 
-Linux  
-Docker  
-CI/CD  
-GitHub Actions  
-DevSecOps  
-Application security
-
-</td>
-<td width="33%" valign="top">
-
-### Software & data
-
-Python  
-FastAPI  
-PostgreSQL  
-SQL  
-REST APIs  
-Data pipelines
+`Numerical Analysis` · `Probability & Statistics`  
+`Linear Algebra` · `Algorithms` · `Differential Equations`  
+`Combinatorics` · `Mathematical Software`
 
 </td>
 </tr>
 </table>
 
-## The path so far
+- **DevOps Engineer at Fara-Ro**
+- **B.Sc. Mathematics and Applications at Kharazmi University**
+- **Teaching Assistant at Kharazmi University**
+- **Council Member, Mathematics Scientific Association**
+
+<sub>I keep this section deliberately annual. One refresh a year is enough; the repositories carry the day-to-day detail.</sub>
+
+## The path
 
 ```text
-Python / backend  →  technical leadership  →  data engineering  →  analytics  →  DevOps / DevSecOps
+Python / backend
+      ↓
+technical leadership
+      ↓
+data engineering
+      ↓
+analytics
+      ↓
+DevOps / DevSecOps
 ```
 
-Different roles, same preference: **make the system understandable first, then make it reliable.**
+The job titles changed. The recurring problem did not: **take something complicated, understand its structure, then make it dependable.**
 
-## Where I am now
+## A few rules I keep
 
-- **DevOps Engineer at Fara-Ro** — infrastructure, CI/CD, secure delivery, testing, and reliability around Python/FastAPI systems.
-- **B.Sc. Mathematics and Applications at Kharazmi University** — with a growing Computer Science foundation and a strong interest in computational mathematics.
-- **Teaching Assistant at Kharazmi University** — supporting mathematical and computational courses across programming, mathematical software, probability, and statistics.
+```text
+reproducible  > clever
+observable    > mysterious
+measured      > assumed
+simple        > impressive-looking
+recoverable   > fragile
+```
 
-## Tools I reach for
+Automation should remove repetition, not judgment. Metrics should answer a question. Security should be part of the system, not a patch at the end. And if a diagram is much more complicated than the implementation needs to be, I probably drew the wrong diagram.
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,git,githubactions,bash,python,postgres,redis&theme=dark" alt="Core engineering tools" />
-</p>
+## Toolbox
 
-<p align="center">
-  <code>FastAPI</code>&nbsp;&nbsp;
-  <code>SQLAlchemy</code>&nbsp;&nbsp;
-  <code>REST APIs</code>&nbsp;&nbsp;
-  <code>R</code>&nbsp;&nbsp;
-  <code>MATLAB</code>&nbsp;&nbsp;
-  <code>NumPy</code>&nbsp;&nbsp;
-  <code>Pandas</code>&nbsp;&nbsp;
-  <code>LaTeX</code>
-</p>
+<table>
+<tr>
+<td valign="top" width="33%">
 
-## How I work
+**Systems**  
+Linux · Docker · Bash  
+GitHub Actions · CI/CD  
+DevSecOps · Hardening
 
-- Understand the system before automating it.
-- Prefer observable failures to silent ones.
-- Automate repetition, not thinking.
-- Measure first; optimize second.
-- Keep the implementation simpler than the diagram whenever possible.
+</td>
+<td valign="top" width="33%">
 
-## Beyond engineering
+**Software & Data**  
+Python · FastAPI · SQLAlchemy  
+PostgreSQL · Redis · REST APIs  
+NumPy · Pandas · Prefect
 
-I also spend time teaching and contributing to the academic community at Kharazmi University. I serve as an elected council member of the **Mathematics Scientific Association** and as a member of the **Artificial Intelligence Association**.
+</td>
+<td valign="top" width="33%">
+
+**Mathematical Computing**  
+R · MATLAB · LaTeX  
+Numerical methods  
+Probability · Modeling
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>A few things from earlier chapters</b></summary>
+<summary><b>Earlier chapters</b></summary>
 <br>
 
-- Top Inventor and Researcher · Pardis Technology Park · 2023, 2024
-- Best Research Project · 2023
-- Best Programming Project · 2022, 2023
-- Best Programmer · 2022
-- CS50x Puzzle Day · 2023, 2024, 2025
+Before DevOps, I worked across Python backend development, technical leadership, financial-data engineering, and analytics. I have also taught programming and robotics, and I continue to teach and support mathematical/computational coursework at university.
+
+Some older recognitions include **Top Inventor and Researcher** (2023, 2024), **Best Research Project** (2023), **Best Programming Project** (2022, 2023), **Best Programmer** (2022), and **CS50x Puzzle Day** participation across 2023–2025.
 
 </details>
 
 ---
 
 <p align="center">
-  <b>The implementation details live in the pinned repositories.</b><br>
-  <sub>This page is the map, not the archive.</sub>
+  <b>The pinned repositories are the evidence.</b><br>
+  <sub>This README is only the coordinate system.</sub>
 </p>

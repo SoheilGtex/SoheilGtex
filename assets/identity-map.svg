@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="t d">
+  <title id="t">Soheil's technical identity map</title>
+  <desc id="d">Four connected areas: mathematics, computer science, software and data, and DevOps.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#63c8ff"/><stop offset=".5" stop-color="#7d88ff"/><stop offset="1" stop-color="#b573ff"/></linearGradient>
+    <style>
+      .s{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+      .m{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+      .node{fill:#0d1117;stroke:#566276;stroke-width:1.5}
+      .edge{fill:none;stroke:#4d596b;stroke-width:1.4;stroke-dasharray:5 7;opacity:.72}
+      .accent{fill:none;stroke:url(#g);stroke-width:3;opacity:.9}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="278" rx="20" fill="#0b0f15" stroke="#252c37"/>
+  <path class="edge" d="M245 140 H420 M520 140 H695 M795 140 H970"/>
+  <path class="accent" d="M245 140 C328 86 363 86 420 140 C477 194 549 194 600 140 C651 86 706 86 795 140 C884 194 918 194 970 140"/>
+
+  <g transform="translate(55,78)"><rect class="node" width="190" height="124" rx="16"/><text x="20" y="34" class="m" fill="#718096" font-size="12" letter-spacing="2">LENS 01</text><text x="20" y="66" class="s" fill="#f3f6fa" font-size="21" font-weight="700">Mathematics</text><text x="20" y="91" class="s" fill="#98a5b6" font-size="14">structure · uncertainty</text><text x="20" y="111" class="s" fill="#98a5b6" font-size="14">models · approximation</text></g>
+  <g transform="translate(355,78)"><rect class="node" width="190" height="124" rx="16"/><text x="20" y="34" class="m" fill="#718096" font-size="12" letter-spacing="2">LENS 02</text><text x="20" y="66" class="s" fill="#f3f6fa" font-size="21" font-weight="700">Computer Science</text><text x="20" y="91" class="s" fill="#98a5b6" font-size="14">algorithms · complexity</text><text x="20" y="111" class="s" fill="#98a5b6" font-size="14">abstraction · correctness</text></g>
+  <g transform="translate(655,78)"><rect class="node" width="190" height="124" rx="16"/><text x="20" y="34" class="m" fill="#718096" font-size="12" letter-spacing="2">BUILD</text><text x="20" y="66" class="s" fill="#f3f6fa" font-size="21" font-weight="700">Software &amp; Data</text><text x="20" y="91" class="s" fill="#98a5b6" font-size="14">Python · APIs · SQL</text><text x="20" y="111" class="s" fill="#98a5b6" font-size="14">pipelines · state</text></g>
+  <g transform="translate(955,78)"><rect class="node" width="190" height="124" rx="16"/><text x="20" y="34" class="m" fill="#718096" font-size="12" letter-spacing="2">OPERATE</text><text x="20" y="66" class="s" fill="#f3f6fa" font-size="21" font-weight="700">DevOps</text><text x="20" y="91" class="s" fill="#98a5b6" font-size="14">Linux · Docker · CI/CD</text><text x="20" y="111" class="s" fill="#98a5b6" font-size="14">security · reliability</text></g>
+
+  <text x="600" y="35" class="m" fill="#748196" font-size="12" text-anchor="middle" letter-spacing="2.5">ONE CONTINUOUS SYSTEM, NOT FOUR SEPARATE INTERESTS</text>
+  <text x="600" y="246" class="s" fill="#768499" font-size="13" text-anchor="middle">reason about it → build it → operate it → learn from it</text>
+</svg>
