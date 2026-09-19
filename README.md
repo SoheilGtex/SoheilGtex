@@ -25,9 +25,9 @@ Currently working as a DevOps Engineer at Fara-Ro while completing a B.Sc. in Ma
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/state-vector-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/state-vector-light.svg">
-  <img src="assets/state-vector-dark.svg" width="100%" alt="Technical State Matrix">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/state-matrix-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/state-matrix-light.svg">
+  <img src="assets/state-matrix-dark.svg" width="100%" alt="Technical State Matrix">
 </picture>
 
 <p align="center">
