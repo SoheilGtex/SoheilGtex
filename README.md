@@ -34,6 +34,12 @@ Every transition has been driven by the same fundamental objective: enforcing ma
 - **Software & Data:** Python, PostgreSQL, FastAPI, Data Pipelines, ETL.
 - **Computational:** Mathematical Modeling, Probability, Linear Algebra, Statistical Analysis.
 
+#### Open-Source Recognition
+
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/SoheilGtex/badge.svg)](https://hub.xerj.org/contributors/SoheilGtex)
+
+The **Phase 3E benchmark study** in [finance-data-pipelines](https://github.com/SoheilGtex/finance-data-pipelines) was selected for the XERJ Corpus Hub in October 2026.
+
 *The pinned repositories carry the implementation details.*
 
 <br/>
